@@ -63,6 +63,16 @@ namespace ProjetoCSharp.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _18_10_Imagem_destacada {
+            get {
+                object obj = ResourceManager.GetObject("18-10-Imagem-destacada", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap be66b799a95578a9d30d69318f03d0c6 {
             get {
                 object obj = ResourceManager.GetObject("be66b799a95578a9d30d69318f03d0c6", resourceCulture);
@@ -86,6 +96,26 @@ namespace ProjetoCSharp.Properties {
         internal static System.Drawing.Bitmap Coringao {
             get {
                 object obj = ResourceManager.GetObject("Coringao", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap dbf6c933ae9775196b5ff76c69fa116b {
+            get {
+                object obj = ResourceManager.GetObject("dbf6c933ae9775196b5ff76c69fa116b", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap dd1cd04ef0a2a74fd88590347f0e4b61 {
+            get {
+                object obj = ResourceManager.GetObject("dd1cd04ef0a2a74fd88590347f0e4b61", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

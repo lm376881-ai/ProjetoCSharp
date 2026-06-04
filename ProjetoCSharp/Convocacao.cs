@@ -32,6 +32,16 @@ namespace ProjetoCSharp
             // Desativar botoes via codigo
             btnConvocacao.Enabled = false;
             btnEspera.Enabled = false;
+
+
+            txtNomeJogador.TabIndex = 0;
+            nmrIdade.TabIndex = 1;
+            cbxPosição.TabIndex = 2;
+            btnConvocacao.TabIndex = 3;
+            btnEspera.TabIndex = 4;
+
+            
+
         }
 
         private void VerificarFormulario()
@@ -70,24 +80,25 @@ namespace ProjetoCSharp
             int idade = (int)nmrIdade.Value;
             string posicao = cbxPosição.Text;
             string nome = txtNomeJogador.Text;
-            
+
 
 
             bool apto = JogadorApto(idade, posicao);
 
-            
+
 
             if (apto)
             {
                 listEspera.Items.Add("Nome: " + nome + " Idade: " + idade + " Posição: " + posicao);
-                MessageBox.Show(" Espera ai amigao: ");
+                MessageBox.Show(nome + " Espera ai amigao: ");
             }
-            else {
+            else
+            {
                 MessageBox.Show("Goleiro dever ter no minimo 20 anos para ser convocado.");
             }
 
 
-                LimparFormulario();
+            LimparFormulario();
 
         }
 
@@ -102,14 +113,14 @@ namespace ProjetoCSharp
             if (apto)
             {
                 listConvocação.Items.Add("Nome: " + nome + " Idade: " + idade + " Posição: " + posicao);
-                MessageBox.Show(" Convocado Campeão ");
+                MessageBox.Show(nome + " Convocado Campeão ");
             }
             else
             {
                 MessageBox.Show("Goleiro dever ter no minimo 20 anos para ser convocado.");
             }
 
-            
+
 
             LimparFormulario();
         }
@@ -145,6 +156,7 @@ namespace ProjetoCSharp
         }
         private void LimparFormulario()
         {
+            txtNomeJogador.Focus();
             txtNomeJogador.Clear();
             nmrIdade.Value = nmrIdade.Minimum;
             cbxPosição.SelectedIndex = -1;
@@ -162,6 +174,14 @@ namespace ProjetoCSharp
             {
                 return true;
             }
+        }
+
+        private void pctBrasil_Click(object sender, EventArgs e)
+        {
+
+            pctBrasil.BackColor = Color.Transparent;
+            pctBrasil.SizeMode = PictureBoxSizeMode.Zoom;
+
         }
     }
 }

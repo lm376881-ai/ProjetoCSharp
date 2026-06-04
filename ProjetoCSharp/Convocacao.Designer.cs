@@ -148,11 +148,13 @@
             this.pctBrasil.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pctBrasil.TabIndex = 32;
             this.pctBrasil.TabStop = false;
+            this.pctBrasil.Click += new System.EventHandler(this.pctBrasil_Click);
             // 
             // Convocacao
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.SystemColors.Window;
             this.ClientSize = new System.Drawing.Size(631, 583);
             this.Controls.Add(this.pctBrasil);
             this.Controls.Add(this.nmrIdade);
