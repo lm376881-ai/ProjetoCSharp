@@ -73,6 +73,16 @@ namespace ProjetoCSharp.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _20250412_231627_1_2_ {
+            get {
+                object obj = ResourceManager.GetObject("20250412-231627-1-2-", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap be66b799a95578a9d30d69318f03d0c6 {
             get {
                 object obj = ResourceManager.GetObject("be66b799a95578a9d30d69318f03d0c6", resourceCulture);

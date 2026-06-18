@@ -46,6 +46,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AnaliseDesempenho.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AnaliseDesempenho.Designer.cs">
+      <DependentUpon>AnaliseDesempenho.cs</DependentUpon>
+    </Compile>
     <Compile Include="Cadastro.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -90,6 +96,9 @@
     <Compile Include="Tabuada.Designer.cs">
       <DependentUpon>Tabuada.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="AnaliseDesempenho.resx">
+      <DependentUpon>AnaliseDesempenho.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Cadastro.resx">
       <DependentUpon>Cadastro.cs</DependentUpon>
     </EmbeddedResource>
@@ -163,6 +172,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\dbf6c933ae9775196b5ff76c69fa116b.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\20250412-231627-1-2-.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -68,5 +68,11 @@ namespace ProjetoCSharp
             Convocacao convocacaoForm = new Convocacao();
             convocacaoForm.Show();
         }
+
+        private void analiseDesempenhoToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            AnaliseDesempenho analiseDesempenhoForm = new AnaliseDesempenho();
+            analiseDesempenhoForm.Show();
+        }
     }
 }
