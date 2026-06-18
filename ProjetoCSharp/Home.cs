@@ -74,5 +74,11 @@ namespace ProjetoCSharp
             AnaliseDesempenho analiseDesempenhoForm = new AnaliseDesempenho();
             analiseDesempenhoForm.Show();
         }
+
+        private void opcoesRequisitosToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            OpcoesRequisitos opcoesRequisitosForm = new OpcoesRequisitos();
+            opcoesRequisitosForm.Show();
+        }
     }
 }

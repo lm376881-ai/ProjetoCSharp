@@ -36,8 +36,9 @@
             this.imparParToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.tabuadaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.convocacaoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.analiseDesempenhoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.opcoesRequisitosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
@@ -62,7 +63,8 @@
             this.imparParToolStripMenuItem,
             this.tabuadaToolStripMenuItem,
             this.convocacaoToolStripMenuItem,
-            this.analiseDesempenhoToolStripMenuItem});
+            this.analiseDesempenhoToolStripMenuItem,
+            this.opcoesRequisitosToolStripMenuItem});
             this.modulo1ToolStripMenuItem.Name = "modulo1ToolStripMenuItem";
             this.modulo1ToolStripMenuItem.Size = new System.Drawing.Size(74, 20);
             this.modulo1ToolStripMenuItem.Text = "Projetinho";
@@ -110,6 +112,13 @@
             this.convocacaoToolStripMenuItem.Text = "Convocacao";
             this.convocacaoToolStripMenuItem.Click += new System.EventHandler(this.convocacaoToolStripMenuItem_Click);
             // 
+            // analiseDesempenhoToolStripMenuItem
+            // 
+            this.analiseDesempenhoToolStripMenuItem.Name = "analiseDesempenhoToolStripMenuItem";
+            this.analiseDesempenhoToolStripMenuItem.Size = new System.Drawing.Size(182, 22);
+            this.analiseDesempenhoToolStripMenuItem.Text = "AnaliseDesempenho";
+            this.analiseDesempenhoToolStripMenuItem.Click += new System.EventHandler(this.analiseDesempenhoToolStripMenuItem_Click);
+            // 
             // pictureBox1
             // 
             this.pictureBox1.Image = global::ProjetoCSharp.Properties.Resources._18_10_Imagem_destacada;
@@ -120,12 +129,12 @@
             this.pictureBox1.TabIndex = 1;
             this.pictureBox1.TabStop = false;
             // 
-            // analiseDesempenhoToolStripMenuItem
+            // opcoesRequisitosToolStripMenuItem
             // 
-            this.analiseDesempenhoToolStripMenuItem.Name = "analiseDesempenhoToolStripMenuItem";
-            this.analiseDesempenhoToolStripMenuItem.Size = new System.Drawing.Size(182, 22);
-            this.analiseDesempenhoToolStripMenuItem.Text = "AnaliseDesempenho";
-            this.analiseDesempenhoToolStripMenuItem.Click += new System.EventHandler(this.analiseDesempenhoToolStripMenuItem_Click);
+            this.opcoesRequisitosToolStripMenuItem.Name = "opcoesRequisitosToolStripMenuItem";
+            this.opcoesRequisitosToolStripMenuItem.Size = new System.Drawing.Size(182, 22);
+            this.opcoesRequisitosToolStripMenuItem.Text = "OpcoesRequisitos";
+            this.opcoesRequisitosToolStripMenuItem.Click += new System.EventHandler(this.opcoesRequisitosToolStripMenuItem_Click);
             // 
             // Home
             // 
@@ -160,5 +169,6 @@
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.ToolStripMenuItem convocacaoToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem analiseDesempenhoToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem opcoesRequisitosToolStripMenuItem;
     }
 }
