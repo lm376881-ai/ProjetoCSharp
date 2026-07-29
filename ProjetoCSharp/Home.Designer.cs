@@ -35,10 +35,13 @@
             this.idadeToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.imparParToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.tabuadaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.convocacaoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.analiseDesempenhoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.modulo2ToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.convocacaoToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.analiseDesempenhoToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.verificadorDePosicaoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.selecaoDeCampeonatoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.opcoesRequisitosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.requisitoTecnicosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
@@ -46,7 +49,8 @@
             // menuStrip1
             // 
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.modulo1ToolStripMenuItem});
+            this.modulo1ToolStripMenuItem,
+            this.modulo2ToolStripMenuItem1});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
             this.menuStrip1.Size = new System.Drawing.Size(322, 24);
@@ -61,63 +65,87 @@
             this.calculadoraToolStripMenuItem,
             this.idadeToolStripMenuItem,
             this.imparParToolStripMenuItem,
-            this.tabuadaToolStripMenuItem,
-            this.convocacaoToolStripMenuItem,
-            this.analiseDesempenhoToolStripMenuItem,
-            this.opcoesRequisitosToolStripMenuItem});
+            this.tabuadaToolStripMenuItem});
             this.modulo1ToolStripMenuItem.Name = "modulo1ToolStripMenuItem";
-            this.modulo1ToolStripMenuItem.Size = new System.Drawing.Size(74, 20);
-            this.modulo1ToolStripMenuItem.Text = "Projetinho";
+            this.modulo1ToolStripMenuItem.Size = new System.Drawing.Size(70, 20);
+            this.modulo1ToolStripMenuItem.Text = "Modulo 1";
             this.modulo1ToolStripMenuItem.Click += new System.EventHandler(this.modulo1ToolStripMenuItem_Click);
             // 
             // cadastroToolStripMenuItem
             // 
             this.cadastroToolStripMenuItem.Name = "cadastroToolStripMenuItem";
-            this.cadastroToolStripMenuItem.Size = new System.Drawing.Size(182, 22);
+            this.cadastroToolStripMenuItem.Size = new System.Drawing.Size(137, 22);
             this.cadastroToolStripMenuItem.Text = "Cadastro";
             this.cadastroToolStripMenuItem.Click += new System.EventHandler(this.cadastroToolStripMenuItem_Click);
             // 
             // calculadoraToolStripMenuItem
             // 
             this.calculadoraToolStripMenuItem.Name = "calculadoraToolStripMenuItem";
-            this.calculadoraToolStripMenuItem.Size = new System.Drawing.Size(182, 22);
+            this.calculadoraToolStripMenuItem.Size = new System.Drawing.Size(137, 22);
             this.calculadoraToolStripMenuItem.Text = "Calculadora";
             this.calculadoraToolStripMenuItem.Click += new System.EventHandler(this.calculadoraToolStripMenuItem_Click);
             // 
             // idadeToolStripMenuItem
             // 
             this.idadeToolStripMenuItem.Name = "idadeToolStripMenuItem";
-            this.idadeToolStripMenuItem.Size = new System.Drawing.Size(182, 22);
+            this.idadeToolStripMenuItem.Size = new System.Drawing.Size(137, 22);
             this.idadeToolStripMenuItem.Text = "Idade";
             this.idadeToolStripMenuItem.Click += new System.EventHandler(this.idadeToolStripMenuItem_Click);
             // 
             // imparParToolStripMenuItem
             // 
             this.imparParToolStripMenuItem.Name = "imparParToolStripMenuItem";
-            this.imparParToolStripMenuItem.Size = new System.Drawing.Size(182, 22);
+            this.imparParToolStripMenuItem.Size = new System.Drawing.Size(137, 22);
             this.imparParToolStripMenuItem.Text = "ImparPar";
             this.imparParToolStripMenuItem.Click += new System.EventHandler(this.imparParToolStripMenuItem_Click);
             // 
             // tabuadaToolStripMenuItem
             // 
             this.tabuadaToolStripMenuItem.Name = "tabuadaToolStripMenuItem";
-            this.tabuadaToolStripMenuItem.Size = new System.Drawing.Size(182, 22);
+            this.tabuadaToolStripMenuItem.Size = new System.Drawing.Size(137, 22);
             this.tabuadaToolStripMenuItem.Text = "Tabuada";
             this.tabuadaToolStripMenuItem.Click += new System.EventHandler(this.tabuadaToolStripMenuItem_Click);
             // 
-            // convocacaoToolStripMenuItem
+            // modulo2ToolStripMenuItem1
             // 
-            this.convocacaoToolStripMenuItem.Name = "convocacaoToolStripMenuItem";
-            this.convocacaoToolStripMenuItem.Size = new System.Drawing.Size(182, 22);
-            this.convocacaoToolStripMenuItem.Text = "Convocacao";
-            this.convocacaoToolStripMenuItem.Click += new System.EventHandler(this.convocacaoToolStripMenuItem_Click);
+            this.modulo2ToolStripMenuItem1.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.convocacaoToolStripMenuItem1,
+            this.analiseDesempenhoToolStripMenuItem1,
+            this.verificadorDePosicaoToolStripMenuItem,
+            this.selecaoDeCampeonatoToolStripMenuItem,
+            this.requisitoTecnicosToolStripMenuItem});
+            this.modulo2ToolStripMenuItem1.Name = "modulo2ToolStripMenuItem1";
+            this.modulo2ToolStripMenuItem1.Size = new System.Drawing.Size(70, 20);
+            this.modulo2ToolStripMenuItem1.Text = "Modulo 2";
+            this.modulo2ToolStripMenuItem1.Click += new System.EventHandler(this.modulo2ToolStripMenuItem1_Click);
             // 
-            // analiseDesempenhoToolStripMenuItem
+            // convocacaoToolStripMenuItem1
             // 
-            this.analiseDesempenhoToolStripMenuItem.Name = "analiseDesempenhoToolStripMenuItem";
-            this.analiseDesempenhoToolStripMenuItem.Size = new System.Drawing.Size(182, 22);
-            this.analiseDesempenhoToolStripMenuItem.Text = "AnaliseDesempenho";
-            this.analiseDesempenhoToolStripMenuItem.Click += new System.EventHandler(this.analiseDesempenhoToolStripMenuItem_Click);
+            this.convocacaoToolStripMenuItem1.Name = "convocacaoToolStripMenuItem1";
+            this.convocacaoToolStripMenuItem1.Size = new System.Drawing.Size(197, 22);
+            this.convocacaoToolStripMenuItem1.Text = "Convocacao";
+            this.convocacaoToolStripMenuItem1.Click += new System.EventHandler(this.convocacaoToolStripMenuItem1_Click);
+            // 
+            // analiseDesempenhoToolStripMenuItem1
+            // 
+            this.analiseDesempenhoToolStripMenuItem1.Name = "analiseDesempenhoToolStripMenuItem1";
+            this.analiseDesempenhoToolStripMenuItem1.Size = new System.Drawing.Size(197, 22);
+            this.analiseDesempenhoToolStripMenuItem1.Text = "AnaliseDesempenho";
+            this.analiseDesempenhoToolStripMenuItem1.Click += new System.EventHandler(this.analiseDesempenhoToolStripMenuItem1_Click);
+            // 
+            // verificadorDePosicaoToolStripMenuItem
+            // 
+            this.verificadorDePosicaoToolStripMenuItem.Name = "verificadorDePosicaoToolStripMenuItem";
+            this.verificadorDePosicaoToolStripMenuItem.Size = new System.Drawing.Size(197, 22);
+            this.verificadorDePosicaoToolStripMenuItem.Text = "VerificadorDePosicao";
+            this.verificadorDePosicaoToolStripMenuItem.Click += new System.EventHandler(this.verificadorDePosicaoToolStripMenuItem_Click);
+            // 
+            // selecaoDeCampeonatoToolStripMenuItem
+            // 
+            this.selecaoDeCampeonatoToolStripMenuItem.Name = "selecaoDeCampeonatoToolStripMenuItem";
+            this.selecaoDeCampeonatoToolStripMenuItem.Size = new System.Drawing.Size(197, 22);
+            this.selecaoDeCampeonatoToolStripMenuItem.Text = "SelecaoDeCampeonato";
+            this.selecaoDeCampeonatoToolStripMenuItem.Click += new System.EventHandler(this.selecaoDeCampeonatoToolStripMenuItem_Click);
             // 
             // pictureBox1
             // 
@@ -129,12 +157,12 @@
             this.pictureBox1.TabIndex = 1;
             this.pictureBox1.TabStop = false;
             // 
-            // opcoesRequisitosToolStripMenuItem
+            // requisitoTecnicosToolStripMenuItem
             // 
-            this.opcoesRequisitosToolStripMenuItem.Name = "opcoesRequisitosToolStripMenuItem";
-            this.opcoesRequisitosToolStripMenuItem.Size = new System.Drawing.Size(182, 22);
-            this.opcoesRequisitosToolStripMenuItem.Text = "OpcoesRequisitos";
-            this.opcoesRequisitosToolStripMenuItem.Click += new System.EventHandler(this.opcoesRequisitosToolStripMenuItem_Click);
+            this.requisitoTecnicosToolStripMenuItem.Name = "requisitoTecnicosToolStripMenuItem";
+            this.requisitoTecnicosToolStripMenuItem.Size = new System.Drawing.Size(197, 22);
+            this.requisitoTecnicosToolStripMenuItem.Text = "RequisitoTecnicos";
+            this.requisitoTecnicosToolStripMenuItem.Click += new System.EventHandler(this.requisitoTecnicosToolStripMenuItem_Click);
             // 
             // Home
             // 
@@ -167,8 +195,11 @@
         private System.Windows.Forms.ToolStripMenuItem imparParToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem tabuadaToolStripMenuItem;
         private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.ToolStripMenuItem convocacaoToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem analiseDesempenhoToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem opcoesRequisitosToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem modulo2ToolStripMenuItem1;
+        private System.Windows.Forms.ToolStripMenuItem convocacaoToolStripMenuItem1;
+        private System.Windows.Forms.ToolStripMenuItem analiseDesempenhoToolStripMenuItem1;
+        private System.Windows.Forms.ToolStripMenuItem verificadorDePosicaoToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem selecaoDeCampeonatoToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem requisitoTecnicosToolStripMenuItem;
     }
 }

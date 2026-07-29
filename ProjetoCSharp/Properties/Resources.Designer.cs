@@ -19,7 +19,7 @@ namespace ProjetoCSharp.Properties {
     // através de uma ferramenta como ResGen ou Visual Studio.
     // Para adicionar ou remover um associado, edite o arquivo .ResX e execute ResGen novamente
     // com a opção /str, ou recrie o projeto do VS.
-    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "17.0.0.0")]
+    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "18.0.0.0")]
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
     internal class Resources {
@@ -66,6 +66,16 @@ namespace ProjetoCSharp.Properties {
         internal static System.Drawing.Bitmap _18_10_Imagem_destacada {
             get {
                 object obj = ResourceManager.GetObject("18-10-Imagem-destacada", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _2006_2_7faaed788b {
+            get {
+                object obj = ResourceManager.GetObject("2006_2_7faaed788b", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -136,6 +146,26 @@ namespace ProjetoCSharp.Properties {
         internal static System.Drawing.Bitmap Kakashi_Vs_Guy {
             get {
                 object obj = ResourceManager.GetObject("Kakashi Vs Guy", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap pngtree_aerial_aerial_view_of_football_field_image_994411__1_ {
+            get {
+                object obj = ResourceManager.GetObject("pngtree-aerial-aerial-view-of-football-field-image_994411 (1)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap sddefault {
+            get {
+                object obj = ResourceManager.GetObject("sddefault", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

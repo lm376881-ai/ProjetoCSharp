@@ -88,19 +88,31 @@
     <Compile Include="ImparPar.Designer.cs">
       <DependentUpon>ImparPar.cs</DependentUpon>
     </Compile>
-    <Compile Include="OpcoesRequisitos.cs">
+    <Compile Include="RequisitoTecnicos.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="OpcoesRequisitos.Designer.cs">
-      <DependentUpon>OpcoesRequisitos.cs</DependentUpon>
+    <Compile Include="RequisitoTecnicos.Designer.cs">
+      <DependentUpon>RequisitoTecnicos.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SelecaoDeCampeonato.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SelecaoDeCampeonato.Designer.cs">
+      <DependentUpon>SelecaoDeCampeonato.cs</DependentUpon>
+    </Compile>
     <Compile Include="Tabuada.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Tabuada.Designer.cs">
       <DependentUpon>Tabuada.cs</DependentUpon>
+    </Compile>
+    <Compile Include="VerificadorDePosicao.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VerificadorDePosicao.Designer.cs">
+      <DependentUpon>VerificadorDePosicao.cs</DependentUpon>
     </Compile>
     <EmbeddedResource Include="AnaliseDesempenho.resx">
       <DependentUpon>AnaliseDesempenho.cs</DependentUpon>
@@ -123,6 +135,9 @@
     <EmbeddedResource Include="ImparPar.resx">
       <DependentUpon>ImparPar.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="RequisitoTecnicos.resx">
+      <DependentUpon>RequisitoTecnicos.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -133,8 +148,14 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="SelecaoDeCampeonato.resx">
+      <DependentUpon>SelecaoDeCampeonato.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Tabuada.resx">
       <DependentUpon>Tabuada.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VerificadorDePosicao.resx">
+      <DependentUpon>VerificadorDePosicao.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -181,6 +202,37 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\20250412-231627-1-2-.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pngtree-aerial-aerial-view-of-football-field-image_994411 %281%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\2006_2_7faaed788b.jpeg" />
+    <Content Include="Resources\amistoso.JPG">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\atacante.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\CopaAmerica.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\CopadoMundo.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Eliminatorias.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\goleiro1.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\meiocampo.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <None Include="Resources\sddefault.jpg" />
+    <Content Include="Resources\zagueiro.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

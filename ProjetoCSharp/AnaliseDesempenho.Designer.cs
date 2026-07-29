@@ -49,7 +49,7 @@
             // 
             // btnAvaliar
             // 
-            this.btnAvaliar.Location = new System.Drawing.Point(12, 706);
+            this.btnAvaliar.Location = new System.Drawing.Point(15, 576);
             this.btnAvaliar.Name = "btnAvaliar";
             this.btnAvaliar.Size = new System.Drawing.Size(190, 55);
             this.btnAvaliar.TabIndex = 40;
@@ -80,7 +80,7 @@
             this.listAvaliacao.FormattingEnabled = true;
             this.listAvaliacao.Location = new System.Drawing.Point(424, 29);
             this.listAvaliacao.Name = "listAvaliacao";
-            this.listAvaliacao.Size = new System.Drawing.Size(374, 732);
+            this.listAvaliacao.Size = new System.Drawing.Size(395, 602);
             this.listAvaliacao.TabIndex = 36;
             this.listAvaliacao.SelectedIndexChanged += new System.EventHandler(this.listAvaliacao_SelectedIndexChanged);
             // 
@@ -173,7 +173,7 @@
             this.groupBox1.Controls.Add(this.cbxPosição);
             this.groupBox1.Controls.Add(this.lblPosição);
             this.groupBox1.Controls.Add(this.lblNomeJogador);
-            this.groupBox1.Location = new System.Drawing.Point(12, 423);
+            this.groupBox1.Location = new System.Drawing.Point(15, 293);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(386, 277);
             this.groupBox1.TabIndex = 51;
@@ -183,7 +183,7 @@
             // 
             // btnLimpar
             // 
-            this.btnLimpar.Location = new System.Drawing.Point(205, 706);
+            this.btnLimpar.Location = new System.Drawing.Point(208, 576);
             this.btnLimpar.Name = "btnLimpar";
             this.btnLimpar.Size = new System.Drawing.Size(190, 55);
             this.btnLimpar.TabIndex = 52;
@@ -197,7 +197,7 @@
             this.pctBrasil.Image = global::ProjetoCSharp.Properties.Resources._20250412_231627_1_2_;
             this.pctBrasil.Location = new System.Drawing.Point(15, 30);
             this.pctBrasil.Name = "pctBrasil";
-            this.pctBrasil.Size = new System.Drawing.Size(393, 375);
+            this.pctBrasil.Size = new System.Drawing.Size(393, 257);
             this.pctBrasil.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pctBrasil.TabIndex = 43;
             this.pctBrasil.TabStop = false;
@@ -206,7 +206,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(810, 770);
+            this.ClientSize = new System.Drawing.Size(821, 631);
             this.Controls.Add(this.btnLimpar);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.pctBrasil);

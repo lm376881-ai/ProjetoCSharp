@@ -1,11 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace ProjetoCSharp
@@ -21,7 +14,6 @@ namespace ProjetoCSharp
         {
 
         }
-
         private void modulo1ToolStripMenuItem_Click(object sender, EventArgs e)
         {
 
@@ -29,9 +21,8 @@ namespace ProjetoCSharp
 
         private void cadastroToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            Cadastro cadastroForm = new Cadastro(); // instanciando o form Cadastro
-            cadastroForm.Show(); // abre em janela normal
-                                 // cadastroForm.ShowDialog(); // abre como janela modal (bloqueia até fechar)
+            Cadastro cadastroForm = new Cadastro();
+            cadastroForm.Show();
         }
 
         private void calculadoraToolStripMenuItem_Click(object sender, EventArgs e)
@@ -63,22 +54,39 @@ namespace ProjetoCSharp
 
         }
 
-        private void convocacaoToolStripMenuItem_Click(object sender, EventArgs e)
+        private void convocacaoToolStripMenuItem1_Click(object sender, EventArgs e)
         {
             Convocacao convocacaoForm = new Convocacao();
             convocacaoForm.Show();
         }
 
-        private void analiseDesempenhoToolStripMenuItem_Click(object sender, EventArgs e)
+        private void analiseDesempenhoToolStripMenuItem1_Click(object sender, EventArgs e)
         {
             AnaliseDesempenho analiseDesempenhoForm = new AnaliseDesempenho();
             analiseDesempenhoForm.Show();
         }
 
-        private void opcoesRequisitosToolStripMenuItem_Click(object sender, EventArgs e)
+        private void modulo2ToolStripMenuItem1_Click(object sender, EventArgs e)
         {
-            OpcoesRequisitos opcoesRequisitosForm = new OpcoesRequisitos();
-            opcoesRequisitosForm.Show();
+
+        }
+
+        private void verificadorDePosicaoToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            VerificadorDePosicao verificadorPosicao = new VerificadorDePosicao();
+            verificadorPosicao.Show();
+        }
+
+        private void selecaoDeCampeonatoToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            SelecaoDeCampeonato selCampeonato = new SelecaoDeCampeonato();
+            selCampeonato.Show();
+        }
+
+        private void requisitoTecnicosToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            RequisitoTecnicos requisitosTecnicos = new RequisitoTecnicos();
+            requisitosTecnicos.Show();
         }
     }
 }
